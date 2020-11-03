@@ -3,8 +3,9 @@ package com.nick.microservices.api.composite;
 public class ServiceAddresses {
     private final String cmp;
     private final String pro;
-    private  final String rev;
     private final String rec;
+    private  final String rev;
+
 
     public ServiceAddresses() {
         this.cmp = null;

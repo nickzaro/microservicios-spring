@@ -7,7 +7,7 @@ public class Review {
     private final String author;
     private final String subject;
     private final  String content;
-    private  final String serviceAdrress;
+    private  final String serviceAddress;
 
     public Review() {
         this.productoId = 0;
@@ -15,16 +15,16 @@ public class Review {
         this.author = null;
         this.subject = null;
         this.content = null;
-        this.serviceAdrress = null;
+        this.serviceAddress = null;
     }
 
-    public Review(int productoId, int reviewId, String author, String subject, String content, String serviceAdrress) {
+    public Review(int productoId, int reviewId, String author, String subject, String content, String serviceAddress) {
         this.productoId = productoId;
         this.reviewId = reviewId;
         this.author = author;
         this.subject = subject;
         this.content = content;
-        this.serviceAdrress = serviceAdrress;
+        this.serviceAddress = serviceAddress;
     }
 
     public int getProductoId() {
@@ -47,7 +47,7 @@ public class Review {
         return content;
     }
 
-    public String getServiceAdrress() {
-        return serviceAdrress;
+    public String getServiceAddress() {
+        return serviceAddress;
     }
 }
