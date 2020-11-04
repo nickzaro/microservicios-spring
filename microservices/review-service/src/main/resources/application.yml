@@ -6,3 +6,9 @@ logging:
     root: INFO
     com.nick: DEBUG
 
+---
+
+spring:
+  profiles: docker
+server:
+  port: 8080
