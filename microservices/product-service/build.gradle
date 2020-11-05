@@ -10,11 +10,17 @@ sourceCompatibility = '1.8'
 
 repositories {
 	mavenCentral()
+	jcenter()
 }
 
 dependencies {
 	implementation project(':api')
 	implementation project(':util')
+
+	implementation "io.springfox:springfox-boot-starter:3.0.0"
+
+	implementation('org.springframework.plugin:spring-plugin-core:2.0.0.RELEASE')
+
 	implementation 'org.springframework.boot:spring-boot-starter-actuator'
 	implementation 'org.springframework.boot:spring-boot-starter-webflux'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
